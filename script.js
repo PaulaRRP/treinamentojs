@@ -18,3 +18,12 @@ function mudaUrlImg() {
     document.getElementById("imagem").src = "https://pbs.twimg.com/media/Edkr8_IWAAYDTN1?format=jpg&name=medium";
     document.getElementById("imagem").style.height = "300px";
 }
+
+function removeClasse() {
+    var elemento = document.getElementsByClassName("list-group-item");
+    var i;
+    for (i = 0; i < elemento.length; i + 1) {
+        elemento[0].classList.remove("list-group-item");
+        console.log(elemento)
+    }
+}
